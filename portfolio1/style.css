@@ -1,0 +1,90 @@
+body{
+    font-family: Montserrat, sans-serif;
+    height: 750px;
+    width: 100%;
+}
+/* Background */
+.background .back{
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background: fixed;
+    left: 0;
+    position: relative;
+}
+/* Navigation section */
+body header .brand-logo{
+    position: absolute;
+    top: 0.2%;
+    left: 100px;
+    color: aliceblue;
+    font-size: 25px;
+}
+body header ul{
+    position: absolute;
+    top: 0.2%;       
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 40px;
+}
+body header ul li{
+    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    align-items: center;
+}
+a{
+  color: white;
+  padding: 2px;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+    color: black;
+}
+#li-text{
+    color: black;
+}
+/* main container section */
+.girl{
+    position: absolute;
+    bottom: 0%;
+    right: 15%;
+    height: 600px;
+}
+.main-container{
+    position: absolute;
+    bottom: 35%;
+    left: 13%;
+    color: white;
+}
+.main-container .container-text{
+    font-size: 20px;
+}
+.main-container h1{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 0.5px;
+}
+.main-container h2{
+    font-size: 24px;
+}
+.main-container .btn1{
+    background-color: aliceblue;
+    color: rgb(199, 21, 51);
+    border: none;
+    height: 40px;
+    font-size: medium;
+}
+.main-container .btn2{
+    background-color: aliceblue;
+    color: rgb(199, 21, 51);
+    border: none;
+    height: 40px;
+    font-size: medium;
+    margin-left: 15px;
+}
+
